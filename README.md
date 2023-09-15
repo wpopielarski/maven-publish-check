@@ -4,3 +4,4 @@ It allows to avoid publishing the artifact if artifact with same version is alre
 
 This code is based on mosamman/maven-publish-check.gradle with few enhancements.
 
+Don't forget to configure publishing plugin.
