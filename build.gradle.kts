@@ -5,6 +5,10 @@ import java.util.Base64
 import javax.xml.xpath.XPathFactory
 import org.xml.sax.InputSource
 
+plugins {
+    id("maven-publish")
+}
+
 tasks {
     register("isPublished") {
         doFirst {
